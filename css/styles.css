@@ -11445,11 +11445,7 @@ section.resume-section .resume-section-content {
   100%   { transform: translate(0, 0px); }   
 }
 .zoom {
-  padding: 50px;
-  background-color: green;
   transition: transform .2s; /* Animation */
-  width: 200px;
-  height: 200px;
   margin: 0 auto;
 }
 
