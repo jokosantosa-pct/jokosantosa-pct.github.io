@@ -11433,3 +11433,14 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+.floating { 
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  15px); }
+  100%   { transform: translate(0, 0px); }   
+}
